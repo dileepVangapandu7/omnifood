@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,8 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/*----------- heading --------------- */
 header {
     background-image:linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71)),url(img/hero.jpg);
     background-size: cover;
@@ -40,11 +43,15 @@ h1 {
     word-spacing: 4px;
 }
 
+
+/*---------- buttons------------- */
+
 .btn:link,
 .btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
+    /*this text decoration : none is to remove under line */
     text-decoration: none;
     border-radius: 200px;
     color: #fff;
@@ -56,7 +63,7 @@ h1 {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
+    background-color: #ed882e;
     border: 1px solid #e67e22;
     margin-right: 15px;
 }
@@ -80,4 +87,41 @@ h1 {
 .btn ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+    
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav a:link, 
+.main-nav a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+
+.main-nav a:hover, 
+.main-nav a:active { 
+    border-bottom: 2px solid #e67e22;
 }
