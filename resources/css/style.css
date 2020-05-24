@@ -82,7 +82,7 @@ h2:after {
     margin-top: 30px;
     
 }
-/*---------- paragraphs------------- */
+/*------------------------------------------------------------------------------ paragraphs------------------------------------- */
 
 .long-copy {
     line-height: 145%;
@@ -96,7 +96,7 @@ h2:after {
     
 }
 
-/*---------- icons------------- */
+/*-------------------------------------------------------------------- icons---------------------------------------------- */
 
 .icon-big {
     font-size: 350%;
@@ -105,7 +105,7 @@ h2:after {
     margin-bottom: 10px;
 }
 
-/*---------- buttons------------- */
+/*--------------------------------------------------------------- buttons--------------------------------------------- */
 
 .btn:link,
 .btn:visited {
@@ -187,7 +187,17 @@ h2:after {
     border-bottom: 2px solid #e67e22;
 }
 
-/*---------- MEALS ------------- */
+/*------------------------------------------ FEATURES ------------------------------------ */
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+/*------------------------------------------ MEALS ------------------------------------ */
+
+.section-meals {
+    padding: 0;
+}
 
 .meals-showcase {
     list-style: none;
@@ -205,9 +215,16 @@ h2:after {
 .meal-photo {
     width: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 .meal-photo img {
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03);
 }
