@@ -186,3 +186,28 @@ h2:after {
 .main-nav a:active { 
     border-bottom: 2px solid #e67e22;
 }
+
+/*---------- MEALS ------------- */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+    
+    
+}
+
+.meals-showcase li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+}
