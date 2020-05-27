@@ -39,6 +39,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
     
 }
 .hero-text-box {
@@ -128,6 +129,26 @@ h2:after {
     margin-top: -5px;
     
 }
+
+/*--------------------------------------------------------------- LINKS--------------------------------------------- */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+    
+}
+
+a:hover,
+a:active {
+    color: #555;
+     border-bottom: 1px solid transparent;
+}
+
 
 /*--------------------------------------------------------------- buttons--------------------------------------------- */
 
@@ -297,6 +318,10 @@ h2:after {
     margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
 .btn-app img {
     height: 50px;
     width: auto;
@@ -315,4 +340,38 @@ h2:after {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+
+
+/*------------------------------------------ CITIES------------------------------------ */
+
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.81)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+   
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25%;
+    display: block;
+
+}
+
+
+    cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
 }
