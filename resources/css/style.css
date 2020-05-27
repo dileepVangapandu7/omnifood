@@ -358,13 +358,22 @@ blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
-   
+    position: relative;
+}
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4px;
 }
 
 cite {
     font-size: 90%;
     margin-top: 25%;
     display: block;
+    
 
 }
 
@@ -373,5 +382,5 @@ cite {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
-    
+    vertical-align: middle;
 }
