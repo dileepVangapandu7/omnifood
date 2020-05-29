@@ -169,7 +169,7 @@ a:active {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #ed882e;
+    background-color: #e67e22;
     border: 1px solid #e67e22;
     margin-right: 15px;
 }
@@ -181,17 +181,17 @@ a:active {
 
 .btn:hover,
 .btn:active {
-    background-color: #cf6d17;
+    background-color: #e67e22;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #e67e22;
 }
 
 .btn ghost:hover,
 .btn ghost:active {
-    border: 1px solid #cf6d17;
+    border: 1px solid #e67e22;
     color: #fff;
 }
 
@@ -383,4 +383,55 @@ cite {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/*------------------------------------------ SIGN UP------------------------------------ */
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    
+}
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+    
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+
+.plan-price-meal {
+    font-size: 80%;
+}
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+}
+
+.plan-box div:last-child {
+    text-align: center;
 }
